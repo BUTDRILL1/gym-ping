@@ -1,50 +1,75 @@
-# React + TypeScript + Vite
+# Gym-Ping
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Find! Fit! Thrive!** 
 
-Currently, two official plugins are available:
+ **Gym-Ping** is a web application designed to help users locate gyms, track their fitness progress, and enhance their workout journey. With features like a gym locator, a fitness tracker dashboard (coming soon), and a modern responsive design, Gym-Ping aims to be the ultimate companion for fitness enthusiasts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## Expanding the ESLint configuration
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Folder Structure](#folder-structure)
+* [Contributing](#contributing)
+* [License](#license)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+* **Gym Locator** : Easily find nearby gyms with filters for ratings, price, and available equipment.
+* **Fitness Tracker Dashboard (Coming Soon)** : Track your fitness journey with a dedicated dashboard providing insights and visual data on your progress.
+* **Responsive Design** : Optimized for both desktop and mobile devices for seamless access across all platforms.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Tech Stack
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+* **Frontend** : React, TypeScript, Tailwind CSS
+* **Backend** : Strapi CMS for content management
+* **Authentication** : Clerk for secure user authentication
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Installation
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+To set up the project locally, follow these steps:
+
+1. **Clone the repository** :
+   
+
+```bash
+   git clone https://github.com/your-username/Gym-Ping.git
+   cd Gym-Ping
+
+2. **Install Dependencies** :
+
+```bash
+   npm install
+
+3. **Create environment variables** :
+   Make a .env file in the root directory and add your environment variable
+```bash
+   REACT_APP_CLERK_FRONTEND_API=<your-clerk-frontend-api>
+
+4. **Start the development server** :
+```bash
+   npm run dev
+
+5. **Build for production** :
+```bash
+   npm run build
+
+## Usage
+
+* Once the app is up and running, you can explore the following features:
+
+    - **Gym Locator**:
+        Access the gym locator to find gyms near your location.
+        Sort by name, rating, and price to find the best fit.
+        Check available equipment and contact details for each gym.
+
+    - **Dashboard**:
+        -The "Coming Soon!" Dashboard will soon feature fitness tracking capabilities, allowing you to monitor your progress.
+
+    - **Authentication**:
+        -Sign in securely with Clerk to access personalized features and save preferences.
+
+## Folder Structure
+
+Gym-Ping ├── public # Public files ├── src │ ├── assets # Static assets (e.g., images, JSON files) │ ├── components # Reusable UI components (e.g., Header, Footer) │ ├── pages # Application pages (e.g., Locator, Dashboard) │ ├── App.tsx # Main app component │ └── index.tsx # Entry point of the app ├── .env # Environment variables ├── package.json # Project configuration and dependencies └── README.md # Project documentation
