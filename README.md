@@ -11,7 +11,6 @@
 * [Installation](#installation)
 * [Usage](#usage)
 * [Folder Structure](#folder-structure)
-* [Contributing](#contributing)
 * [License](#license)
 
 ## Features
@@ -45,6 +44,7 @@ To set up the project locally, follow these steps:
 
 3. **Create environment variables** :
    Make a .env file in the root directory and add your environment variable
+
 ```bash
    REACT_APP_CLERK_FRONTEND_API=<your-clerk-frontend-api>
 
@@ -54,6 +54,7 @@ To set up the project locally, follow these steps:
    ```
 
 5. **Build for production** :
+
 ```bash
    npm run build
    ```
@@ -62,17 +63,30 @@ To set up the project locally, follow these steps:
 
 * Once the app is up and running, you can explore the following features:
 
-    - **Gym Locator**:
+    - **Gym Locator** :
         Access the gym locator to find gyms near your location.
         Sort by name, rating, and price to find the best fit.
         Check available equipment and contact details for each gym.
 
-    - **Dashboard**:
+    - **Dashboard** :
         -The "Coming Soon!" Dashboard will soon feature fitness tracking capabilities, allowing you to monitor your progress.
 
-    - **Authentication**:
+    - **Authentication** :
         -Sign in securely with Clerk to access personalized features and save preferences.
 
 ## Folder Structure
 
-Gym-Ping ├── public # Public files ├── src │ ├── assets # Static assets (e.g., images, JSON files) │ ├── components # Reusable UI components (e.g., Header, Footer) │ ├── pages # Application pages (e.g., Locator, Dashboard) │ ├── App.tsx # Main app component │ └── index.tsx # Entry point of the app ├── .env # Environment variables ├── package.json # Project configuration and dependencies └── README.md # Project documentation
+Gym-Ping ├── public # Public files 
+├── src 
+│ ├── assets # Static assets (e.g., images, JSON files) 
+│ ├── components # Reusable UI components (e.g., Header, Footer) 
+│ ├── pages # Application pages (e.g., Locator, Dashboard) 
+│ ├── App.tsx # Main app component 
+│ └── index.tsx # Entry point of the app 
+├── .env # Environment variables 
+├── package.json # Project configuration and dependencies 
+└── README.md # Project documentation
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
