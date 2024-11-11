@@ -41,6 +41,7 @@ To set up the project locally, follow these steps:
 
 ```bash
    npm install
+   ```
 
 3. **Create environment variables** :
    Make a .env file in the root directory and add your environment variable
@@ -50,10 +51,12 @@ To set up the project locally, follow these steps:
 4. **Start the development server** :
 ```bash
    npm run dev
+   ```
 
 5. **Build for production** :
 ```bash
    npm run build
+   ```
 
 ## Usage
 
