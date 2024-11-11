@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.highlight-text {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 200% 200%;
+    animation: highlight 2s ease forwards;
+}
+
+@keyframes highlight {
+    0% {
+        background-position: 100% 0;
+        background: none;
+        color: inherit;
+    }
+
+    100% {
+        background-position: 0 0;
+        background: linear-gradient(to right, #e93204, #ff9a03);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}

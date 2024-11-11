@@ -1,0 +1,74 @@
+{
+    "Gyms": {
+        "Uniyal Fitness": {
+            "number": "9927429471",
+            "rating": "5",
+            "price": "1500",
+            "equipments": [
+                "lavda, lassan"
+            ],
+            "location": "https://maps.app.goo.gl/FkCkJqcN4EK1eFR68",
+            "address": "Near Post Office, Maggie Point side, Bidholi"
+        },
+        "The Titans": {
+            "number": "XXXXXXXXXX",
+            "rating": "4",
+            "price": "1000",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://g.co/kgs/JLx5a8w",
+            "address": "Near Abuzz Oxfordcaps Agrasen Boys Hostel, Lower Bidholi"
+        },
+        "Sagar Fitness": {
+            "number": "XXXXXXXXXX",
+            "rating": "4",
+            "price": "1000",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://maps.app.goo.gl/KGswHwLzQKmY7M2S6",
+            "address": "Near Abuzz Oxfordcaps Agrasen Boys Hostel, Lower Bidholi"
+        },
+        "BodyGram Gym": {
+            "number": "XXXXXXXXXX",
+            "rating": "3",
+            "price": "1000",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://maps.app.goo.gl/k22c9W7JFJ7oZpnk6",
+            "address": "Near Kandoli Police Chowki, Kandoli"
+        },
+        "The Muscle Pump": {
+            "number": "XXXXXXXXXX",
+            "rating": "5",
+            "price": "1000",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://maps.app.goo.gl/TXQtUjhjkMbsL6PP9",
+            "address": "Near Sai Mandir, Bidholi"
+        },
+        "Level Up Fitness": {
+            "number": "8477814015",
+            "rating": "5",
+            "price": "1000",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://maps.app.goo.gl/k4phhocRwSH7Cbpi7",
+            "address": "Pondha Road, Pondha"
+        },
+        "Pumping Iron Gym": {
+            "number": "XXXXXXXXXX",
+            "rating": "5",
+            "price": "800",
+            "equipments": [
+                "list_of_equipments"
+            ],
+            "location": "https://maps.app.goo.gl/NVvsmzUV7toRCug76",
+            "address": "Infront of Sprocket, Bidholi"
+        }
+    }
+}
