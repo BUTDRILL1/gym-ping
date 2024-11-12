@@ -76,16 +76,19 @@ To set up the project locally, follow these steps:
 
 ## Folder Structure
 
-Gym-Ping ├── public # Public files 
-├── src 
-│ ├── assets
-│ ├── components
-│ ├── pages
-│ ├── App.tsx
-│ └── index.tsx
-├── .env
-├── package.json
-└── README.md
+  ```bash
+    Gym-Ping 
+    ├── public
+    ├── src 
+    │ ├── assets
+    │ ├── components
+    │ ├── pages
+    │ ├── App.tsx
+    │ └── index.tsx
+    ├── .env
+    ├── package.json
+    └── README.md
+    ```
 
 ## License
 
