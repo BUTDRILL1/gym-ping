@@ -88,7 +88,7 @@ To set up the project locally, follow these steps:
     ├── .env
     ├── package.json
     └── README.md
-    ```
+  ```
 
 ## License
 
