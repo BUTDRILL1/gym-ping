@@ -78,14 +78,14 @@ To set up the project locally, follow these steps:
 
 Gym-Ping ├── public # Public files 
 ├── src 
-│ ├── assets # Static assets (e.g., images, JSON files) 
-│ ├── components # Reusable UI components (e.g., Header, Footer) 
-│ ├── pages # Application pages (e.g., Locator, Dashboard) 
-│ ├── App.tsx # Main app component 
-│ └── index.tsx # Entry point of the app 
-├── .env # Environment variables 
-├── package.json # Project configuration and dependencies 
-└── README.md # Project documentation
+│ ├── assets
+│ ├── components
+│ ├── pages
+│ ├── App.tsx
+│ └── index.tsx
+├── .env
+├── package.json
+└── README.md
 
 ## License
 
